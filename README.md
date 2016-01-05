@@ -1,6 +1,5 @@
 # SMTagField
 
-[![CI Status](http://img.shields.io/travis/Kennouf/SMTagField.svg?style=flat)](https://travis-ci.org/Kennouf/SMTagField)
 [![Version](https://img.shields.io/cocoapods/v/SMTagField.svg?style=flat)](http://cocoapods.org/pods/SMTagField)
 [![License](https://img.shields.io/cocoapods/l/SMTagField.svg?style=flat)](http://cocoapods.org/pods/SMTagField)
 [![Platform](https://img.shields.io/cocoapods/p/SMTagField.svg?style=flat)](http://cocoapods.org/pods/SMTagField)
@@ -36,10 +35,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SMTagField"
 ```
-
-## Author
-
-Kennouf, carewfthebard@gmail.com
 
 ## License
 
