@@ -176,6 +176,21 @@
     
     for(NSString *txtTag in tags){
         SMTag *tag              = [[SMTag alloc] initWithTag: txtTag];
+        if (self.tagFont) {
+            tag.font = self.tagFont;
+        }
+        if (self.tagTextColor) {
+            tag.textColor = self.tagTextColor;
+        }
+        if (self.tagBorderColor) {
+            tag.borderColor = self.tagBorderColor;
+        }
+        if (self.tagBackgroundColor) {
+            tag.backgroundColor = self.tagBackgroundColor;
+        }
+        if (self.tagCornerRadius) {
+            tag.layer.cornerRadius = self.tagCornerRadius;
+        }
         
 //        [tag addTarget:self action:@selector(tagTapped:) forControlEvents:UIControlEventTouchUpInside];
         

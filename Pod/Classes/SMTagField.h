@@ -19,6 +19,21 @@
  */
 @property (nonatomic, strong) NSArray *tags;
 
+/** Tag border color **/
+@property (nonatomic, strong) UIColor   *tagBorderColor;
+
+/** Tag background color **/
+@property (nonatomic, strong) UIColor   *tagBackgroundColor;
+
+/** Font used in tag **/
+@property (nonatomic, strong) UIFont    *tagFont;
+
+/** Text color of tag **/
+@property (nonatomic, strong) UIColor   *tagTextColor;
+
+/** Corner radius of tag **/
+@property (nonatomic) CGFloat   tagCornerRadius;
+
 /**
  The SMTagField Delegate. See documentation above
  */
