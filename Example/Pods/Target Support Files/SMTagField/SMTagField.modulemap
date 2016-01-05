@@ -1,0 +1,6 @@
+framework module SMTagField {
+  umbrella header "SMTagField-umbrella.h"
+
+  export *
+  module * { export * }
+}
