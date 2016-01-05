@@ -1,5 +1,5 @@
 PODS:
-  - SMTagField (0.1.0)
+  - SMTagField (0.1.1)
 
 DEPENDENCIES:
   - SMTagField (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SMTagField: 3dd714eb21e530ea85c473f36a0fa4e199892201
+  SMTagField: 49dbb6e334083883fbf6b5804a19e8a43795884d
 
 COCOAPODS: 0.39.0

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SMTagField"
-  s.version          = "0.1.1"
+  s.version          = "1.1.1"
   s.summary          = "UITextField that allows for easy input/display of Tags"
 
 # This description is used to generate tags and improve search results.
