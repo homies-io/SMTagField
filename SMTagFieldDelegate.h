@@ -12,13 +12,16 @@
 
 @optional
 
+//Called by delegate when a specific tag was tapped
+- (void)tagTapped:(NSString *)tag;
+
 /**
  Called by delegate when a specific tag was added
  
  @param tagField The Tag Field
  @param tag The tag
  */
--(void) tagField: (SMTagField *) tagField tagAdded: (NSString *) tag;
+- (void)tagField:(SMTagField *)tagField tagAdded:(NSString *)tag;
 
 /**
  Called by delegate when a specific tag was removed
@@ -26,7 +29,7 @@
  @param tagField The Tag Field
  @param tag The tag
  */
--(void) tagField: (SMTagField *) tagField tagRemoved: (NSString *) tag;
+- (void)tagField:(SMTagField *)tagField tagRemoved:(NSString *) tag;
 
 /**
  Called by delegate when any change to the tags occured (add/remove)
@@ -34,12 +37,12 @@
  @param tagField The Tag Field
  @param tag The tag
  */
--(void) tagField: (SMTagField *) tagField tagsChanged: (NSArray *) tags;
+- (void)tagField:(SMTagField *)tagField tagsChanged:(NSArray *)tags;
 
 /**
  Tells SMTagField whether or not it should add a new tag. This could be used to limit the number of tags or blacklist bad words, etc...
  Defaults to YES if protocol isn't implemented.
  */
--(BOOL) tagField: (SMTagField *) tagField shouldAddTag: (NSString *) tag;
+- (BOOL)tagField:(SMTagField *)tagField shouldAddTag:(NSString *)tag;
 
 @end

@@ -241,4 +241,12 @@
         [tagDelegate tagField: self tagsChanged: tags];
 }
 
+- (void)tagTapped:(SMTag *)tag {
+    NSString *tagString = [tag.value stringByReplacingOccurrencesOfString:@"#" withString:@""];
+    
+    if ([tagDelegate respondsToSelector:@selector(tagTapped:)]) {
+        [tagDelegate tagTapped:tagString];
+    }
+}
+
 @end

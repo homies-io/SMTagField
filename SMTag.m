@@ -11,14 +11,14 @@
 @synthesize value;
 @dynamic borderColor, font, textColor;
 
--(id)initWithTag:(NSString *)tag{
+-(id)initWithTag:(NSString *)tag {
     if(self = [super init]){
-        self.backgroundColor    = [UIColor colorWithRed:0.7215686275 green:0.7490196078 blue:0.7882352941 alpha:1.0];
+        self.backgroundColor    = [UIColor colorWithRed:0.37 green:0.80 blue:0.78 alpha:1.0];
         self.titleLabel.font    = [UIFont systemFontOfSize: 11];
         self.layer.cornerRadius = 5;
         self.layer.masksToBounds= YES;
         self.layer.borderColor  = [UIColor colorWithRed:0.5333333333 green:0.6862745098 blue:0.8470588235 alpha:1.0].CGColor;
-        self.layer.borderWidth  = 1;
+        self.layer.borderWidth  = 0;
         self.showsTouchWhenHighlighted = YES;
         
         value                   = tag;
