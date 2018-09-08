@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SMTagField"
-  s.version          = "1.1.1"
+  s.version          = "1.1.2"
   s.summary          = "UITextField that allows for easy input/display of Tags"
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,10 @@ Just initialize **SMTagField**, set the delegate (Optional), add to your parent 
 Check out the "SMTagFieldExample" Xcode project which shows a basic working example.
                        DESC
 
-  s.homepage         = "https://github.com/Kennouf/SMTagField"
+  s.homepage         = "https://github.com/homies-io/SMTagField"
   s.license          = 'MIT'
-  s.author           = { "Kennouf" => "carewfthebard@gmail.com" }
-  s.source           = { :git => "https://github.com/Kennouf/SMTagField.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Frostbitee08" => "rocco@homies.io" }
+  s.source           = { :git => "https://github.com/homies-io/SMTagField.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
