@@ -1,0 +1,14 @@
+PODS:
+  - SMTagField (0.1.1)
+
+DEPENDENCIES:
+  - SMTagField (from `../`)
+
+EXTERNAL SOURCES:
+  SMTagField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SMTagField: 49dbb6e334083883fbf6b5804a19e8a43795884d
+
+COCOAPODS: 0.39.0
